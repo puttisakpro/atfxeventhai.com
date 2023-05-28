@@ -1,0 +1,54 @@
+.font{ font-family: 'Charm', cursive;
+       font-family: 'Sulphur Point', sans-serif;
+       font-family: 'Thasadith', sans-serif;
+}   
+.width960{
+    width:960px;
+    margin: 0px auto;
+}
+.coloc{
+    background-color: aqua;
+}
+
+.hdl {
+	float: left;
+}
+
+.hdr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+.pad {
+    padding: 10px;
+}
+.pad3 {
+    padding: 30px;
+}
+.pb{
+    padding-bottom: 20px;
+}
+.pr{
+    padding-right: 20px;
+}
+.mar {
+    margin: 0px 30px 0px 30px;
+}
+.mar2{
+    margin: 10px 0px 2px 500px;
+}
+.mar3{
+    margin: 10px 0px 40px 30px;
+}
+.width100{
+    width: 100%;
+}
+.width50{
+    width: 50%;
+}
+.center{
+    text-align: center;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<?php
+
+$str_hostname = "localhost";
+$str_username = "root";
+$str_password = "";
+$str_dbname = "studen";
+
+$obj_con = mysqli_connect($str_hostname, $str_username, $str_password, $str_dbname);
+
+if (!$obj_con) {
+    header("location:error.php");
+    exit();
+}
+
+mysqli_query($obj_con, "SET NAMES UTF8");
+
+$str_sql = "select * from test3";
+$obj_rs = mysqli_query($obj_con, $str_sql);
+
+?>
+
+<body>
+    <?php while ($obj_row = mysqli_fetch_array($obj_rs)) { ?>
+        <div>
+            <div style="width: 960px;margin: 0px auto;">
+                <div style="margin: 30px 0px auto; text-align: ">
+                    <div style="width: 300px; height: 50px; background-color: #7FFF00 ">
+                        <span style=" margin: 30px 0px 20px ; text-align: center;  padding: 10px;  "> <?= $obj_row['location'] ?></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
+</body>
+
+</html>

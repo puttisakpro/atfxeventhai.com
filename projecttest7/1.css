@@ -1,0 +1,57 @@
+.header {
+	background-color: #ffb300;
+}
+
+.wrap960 {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.hdp {
+	padding: 30px 0px;
+
+	color: #FFF;
+}
+
+.hdl {
+	float: left;
+}
+
+.hdr {
+	float: right;
+}
+
+.clear {
+	clear: both
+}
+.width40{
+	width: 49%;
+}
+.width100{
+	width: 100%;
+}
+.height150{
+	height: 150px
+}
+
+
+.center {
+	text-align: center;
+	border: 3px solid green;
+	margin: 0px auto
+}
+
+.menu {
+	background-color: #fcebbd;
+}
+
+.mna {
+	color: #ffb300;
+	padding: 6px 24px;
+	box-sizing: border-box;
+
+	display: inline-block;
+
+	text-decoration: none;
+
+}

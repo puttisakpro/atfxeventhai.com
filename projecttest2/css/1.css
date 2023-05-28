@@ -1,0 +1,49 @@
+.ta {
+    width: 960px;
+
+    background-color: brown;
+    margin: 0px auto;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Explora', ;
+    font-family: 'Solitreo', cursive;
+}
+
+.cc {
+    background-color: rgb(21, 17, 240);
+    color: rgb(238, 83, 83);
+    height: 80px;
+}
+
+.tb {
+    float: left;
+    padding: 20px 20px;
+}
+
+.tc {
+    float: right;
+    padding: 20px 20px;
+}
+
+.td {
+    clear: both;
+}
+
+.te {
+    background-image: url("/images/picture.jpeg");
+    height: 500px;
+    padding: 50px 50px 50px 50px;
+    margin: 10;
+}
+
+.tf {
+    background-image: url("/images/picture2.jpg");
+    height: 300px;
+    width: 200px;
+    padding: 50px 50px 50px 50px;
+    margin: 20;
+
+}
+
+.tg {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+table {
+
+}
+
+table tr {
+    background-color:#FFF;
+}
+
+
+table th,table td {
+    border:1px solid #000;
+    padding:3px 6px;
+    box-sizing:border-box;
+}
+
+table th {
+  background-color:#fcecc0;
+}
+.ta1{
+  border:1px solid #000;
+  padding:3px 6px;
+  box-sizing:border-box;
+}
+
+
